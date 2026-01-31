@@ -2,11 +2,30 @@ type: Flying
 speed: 2
 health: 4650
 hitSize: 20
+outlineColor: 626262
 
 omniMovement: false
 rotateSpeed: 6.5
 
 weapons:[
+{
+y: 2
+x: 0
+rotateSpeed: 5
+rotates: false
+name: penumbra-cannon
+
+bullet:{
+type: MissileBulletType
+speed: 3
+hitSize: 12
+homingPower: 0
+
+trailLength: 20
+trailWidth: 3
+}
+
+}
 {
 y: -4.25
 x: 0
