@@ -1,19 +1,20 @@
 type: flying
-speed: 2
+speed: 3
 flying: true
 health: 4650
 hitSize: 20
 outlineColor: 626262
 
 omniMovement: false
-rotateSpeed: 6.5
+rotateSpeed: 1.5
+drag: 0.05
 
 weapons:[
 {
 y: 2
 x: 0
 rotateSpeed: 5
-rotates: false
+rotates: true
 name: penumbra-cannon
 
 bullet:{
@@ -44,6 +45,7 @@ type: FlarePart
 radius: 24
 stroke: 2
 progress: warmup
+sides: 2
 }
 ]
 
