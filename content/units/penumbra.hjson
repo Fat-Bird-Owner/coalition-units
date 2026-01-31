@@ -11,10 +11,10 @@ drag: 0.05
 
 weapons:[
 {
-y: 2
+y: 1.75
 x: 0
 rotateSpeed: 5
-rotates: true
+rotate: true
 name: penumbra-cannon
 
 bullet:{
@@ -42,10 +42,12 @@ noAttack: true
 parts:[
 {
 type: FlarePart
-radius: 24
+radius: 0
 stroke: 2
 progress: warmup
 sides: 2
+radiusTo: 24
+layer: 115.1
 }
 ]
 
