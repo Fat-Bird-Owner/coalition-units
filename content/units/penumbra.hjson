@@ -1,0 +1,39 @@
+type: Flying
+speed: 2
+health: 4650
+hitSize: 20
+
+omniMovement: false
+rotateSpeed: 6.5
+
+weapons:[
+{
+y: -4.25
+x: 0
+mirror: false
+minShootVelocity: 1.5
+shootSound: none
+controllable: false
+aiControllable: false
+ignoreRotation: true
+noAttack: true
+
+parts:[
+{
+type: FlarePart
+radius: 24
+stroke: 2
+progress: warmup
+}
+]
+
+bullet:{
+instantDisappear: true
+despawnHit: true
+hitEffect: none
+hitSound: none
+collides: false
+}
+  
+}
+]
