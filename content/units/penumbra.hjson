@@ -48,7 +48,7 @@ parts:[
 type: FlarePart
 radius: 0
 stroke: 2
-progress: warmup
+progress: heat
 sides: 2
 radiusTo: 24
 layer: 115.1
@@ -56,6 +56,7 @@ layer: 115.1
 ]
 
 bullet:{
+type: EmptyBulletType
 instantDisappear: true
 despawnHit: true
 hitEffect: none
