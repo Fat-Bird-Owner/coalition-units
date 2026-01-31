@@ -3,7 +3,7 @@ speed: 3
 flying: true
 health: 4650
 hitSize: 20
-outlineColor: 626262
+outlineColor: 7f7f7f
 
 omniMovement: false
 rotateSpeed: 1.5
@@ -16,10 +16,13 @@ x: 0
 rotateSpeed: 5
 rotate: true
 name: penumbra-cannon
+reload: 60
 
 bullet:{
 type: MissileBulletType
-speed: 3
+speed: 8
+lifetime: 45
+
 hitSize: 12
 homingPower: 0
 
@@ -33,6 +36,7 @@ y: -4.25
 x: 0
 mirror: false
 minShootVelocity: 1.5
+alwaysShooting: true
 shootSound: none
 controllable: false
 aiControllable: false
