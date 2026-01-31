@@ -1,5 +1,6 @@
-type: Flying
+type: flying
 speed: 2
+flying: true
 health: 4650
 hitSize: 20
 outlineColor: 626262
